@@ -15,7 +15,7 @@ const App = () => {
             <Route path="error" element={<Error404Page/>}/>
             <Route path="contacto" element={<ContactPage/>}/>
             <Route path="proyectos" element={<ProjectsPage/>}/>
-            <Route path="/*" element={<Navigate to="/about"/>}/>
+            <Route path="/*" element={<Navigate to="/HomePage"/>}/>
         </Routes>
     </>
   )
