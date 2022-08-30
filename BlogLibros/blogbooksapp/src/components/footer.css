@@ -1,0 +1,12 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-height: 300px;
+}
+.footer ul{
+    list-style: none;
+}
+.footer ul li a{
+    text-decoration: none;
+}

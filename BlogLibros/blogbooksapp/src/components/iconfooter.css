@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.iconfooter{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.boxfooter{
+    margin: 1rem;
+    width: 75px;
+    height: 75px;
+    box-shadow: 16px 14px 20px #0000008c;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor:  pointer ;
+}
+.p-twitter::before{
+    content: '';
+    background-image: conic-gradient(
+        #00acee 20deg,
+        transparent 120deg
+    );
+    position: absolute;
+    animation: rotate 20s linear infinite ;
+}
+.p-twitter::after{
+    content: "";
+    background: #101010;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 20px 20px 20px #0000008c;
+}
+.p-linkedin::before{
+    content: '';
+    background-image: conic-gradient(
+        rgb(10, 102, 194) 20deg,
+        transparent 120deg
+    );
+    position: absolute;
+    animation: rotate 20s linear infinite ;
+}
+.p-linkedin::after{
+    content: "";
+    background: #101010;
+    width: 80%;
+    height: 80%;
+    border-radius: 30px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 20px 20px 20px #0000008c;
+}
+.p-instagram::before{
+    content: '';
+    background-image: conic-gradient(
+        #d6249f 20deg,
+        transparent 120deg
+    );
+    position: absolute;
+    animation: rotate 20s linear infinite ;
+}
+.p-instagram::after{
+    content: "";
+    background: #101010;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 20px 20px 20px #0000008c;
+}
+.p-whatsapp::before{
+    content: '';
+    background-image: conic-gradient(
+        #25d366 20deg,
+        transparent 120deg
+    );
+    position: absolute;
+    animation: rotate 20s linear infinite ;
+}
+.p-whatsapp::after{
+    content: "";
+    background: #101010;
+    position: absolute;
+    width: 90%;
+    height: 90%;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset 20px 20px 20px #0000008c;
+}
+
+.boxfooter i{
+    z-index: 100;
+    font-size:2rem; 
+  
+}
+
+.twitter{
+    color:#00acee;
+}
+.linkedin{
+    color: rgb(10, 102, 194)
+}
+.whatsapp{
+    color: #25d366;
+}
+#insta {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+    -webkit-background-clip: text;
+            /* Also define standard property for compatibility */
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+  }
+@keyframes rotate{
+    0%{
+        transform: rotate(0deg);
+    }
+    100%{
+        transform: rotate(-360deg);
+    }
+}
