@@ -5,6 +5,9 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import CardProject from '../components/Card';
+import img1 from '../../src/assets/img/frankventas.bmp';
+import img2 from '../../src/assets/img/sele-style.bmp';
+import img3 from '../../src/assets/img/muebles-magallanes.bmp';
 
 
 const ProjectsPage = () => {
@@ -23,13 +26,13 @@ const ProjectsPage = () => {
         </Row>
         <Row className="box-home-center">
             <Col xs={12} sm={12}md={4} lg={4}>
-              <CardProject titulo="selestyle" subtitulo="Catalogo Online" descripcion="Tienda online de calzado e indumentaria"/>
+              <CardProject img={img1} titulo="selestyle" subtitulo="Catalogo Online" descripcion="Tienda online de calzado e indumentaria"/>
             </Col>
             <Col xs={12} sm={12}md={4} lg={4}>
-              <CardProject titulo="Muebles-Magallanes" descripcion="Ecommerce de ventas de muebles" subtitulo="Ecommerce Pyme"/>
+              <CardProject img={img2} titulo="Muebles-Magallanes" descripcion="Ecommerce de ventas de muebles" subtitulo="Ecommerce Pyme"/>
             </Col>
             <Col xs={12} sm={12} md={4} lg={4}>
-              <CardProject titulo="Le-Mark" descripcion="Menú del restaurante, con precios y platos" subtitulo="Pizzería y Hamburguesería"/> 
+              <CardProject img={img3}titulo="Le-Mark" descripcion="Menú del restaurante, con precios y platos" subtitulo="Pizzería y Hamburguesería"/> 
             </Col>
         </Row>
         <Row className="box-home-bottom">

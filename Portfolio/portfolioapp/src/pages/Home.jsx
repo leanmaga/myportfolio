@@ -1,4 +1,3 @@
-import img from '../assets/img/myphotobg.png'
 import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
@@ -33,8 +32,8 @@ const Home = () => {
                 
             </Col>
             <Col xs={12} sm={12} md={6} lg={4}>
-                <h4 className='profession'>Product Desinger</h4>
-                <p className='description'>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis, cupiditate.</p>
+                <h4 className='profession'>Product Desinger and Front-End Developer</h4>
+                <p className='description'>Me especializo en HTML, CSS3, Sass y JavaScript. Manejo Frameworks como Bootstrap y React Js</p>
             </Col>
         </Row>
 
@@ -54,7 +53,7 @@ const Home = () => {
             </Col>
             <Col xs={12}sm={12} md={4} lg={4} className='buttons'>
                 <Button className="me-2" variant="danger" size="sm">
-                    <a href="mailto:thesharkcommunity@gmail.com?subject=Mi+pedido&body=Hola+estoy+interesado+en" target="_blank">Message</a>
+                    <a href="mailto:thesharkcommunity@gmail.com?subject=Mi+pedido&body=Hola+estoy+interesado+en" target="_blank" rel='noreferrer'>Message</a>
                 </Button>{' '}
                 <Button variant="outline-danger" size="sm">
                     Curriculum Vitae

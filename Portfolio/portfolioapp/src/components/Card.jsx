@@ -3,13 +3,13 @@ import { Button, CardBody, CardTitle, CardSubtitle, Card, CardText} from 'reacts
 import './card.css';
 
 
-const CardProject = ({titulo, subtitulo,descripcion}) => {
+const CardProject = ({titulo, subtitulo,descripcion,img}) => {
   return (
     <div>
       <Card className='Card' outline style={{width: '18rem'}}>
           <img
             alt="Sample"
-            src="https://picsum.photos/300/200"
+            src={img}
           />
           <CardBody>
             <CardTitle tag="h5">
