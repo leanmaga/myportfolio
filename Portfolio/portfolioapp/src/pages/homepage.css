@@ -3,14 +3,36 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+html{
+    font-family: montserrat;
+    scroll-behavior: smooth;
+}
+
 body{
     background:  linear-gradient(to right, black,rgb(8, 11, 27),black );
     background-size: 400% 400%;
     animation: animate-background 10s infinite ease-in-out;
 }
-a{list-style: none;
-text-decoration: none;
-color: #f1f1f1;}
+
+ul, nav{
+    text-decoration: none;
+}
+
+a{
+    text-decoration: none;
+    color: #f1f1f1;
+    opacity: .75;
+}
+a:hover{
+    opacity: 1;
+}
+p{
+    line-height: 2;
+    padding: 0 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
 .container{
     width: 100%;
     height: 100vh;
@@ -40,7 +62,7 @@ color: #f1f1f1;}
 
 
 
-.box-home-center, .box-home-top, .box-home-bottom{
+.box-home-center, .box-home-top{
     width: 100%;
     height: auto;
     text-align: justify;  
@@ -52,12 +74,21 @@ color: #f1f1f1;}
     font-weight: 700;
 }
 .box-home-center h4{
-    font-size: 54px;
+    text-transform: capitalize;
+    margin-bottom: 5px;
+    text-align: center;
+    font-size: 45px;
     color: #f1f1f1;
     font-weight: 700;
 }
 
-@media screen and (min-width: 768px) {
+.redes-bottom{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (min-width: 1024px) {
     .name{
         content: '';
         border-bottom: 4px solid rgb(212, 57, 57);
@@ -74,7 +105,15 @@ color: #f1f1f1;}
     flex-wrap: nowrap;
     text-decoration: none;
     list-style: none;
+    animation: 1s animate 0.5s forwards;
+    opacity: 0;
 }
+@keyframes animate {
+    100%{
+        opacity: 1;
+    }
+}
+
 .redes-list li {
     color: #f1f1f1;
     text-decoration: none;
@@ -86,11 +125,16 @@ color: #f1f1f1;}
 }
 .buttons{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     filter: drop-shadow(0px 0px 100px black);
+    margin-bottom: 2rem ;
 }
 .buttons button{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    opacity: 1;
     filter: drop-shadow(0px 0px 100px black);
 }
 
@@ -110,6 +154,9 @@ color: #f1f1f1;}
     .box-home-center h4{
         font-size: 24px;
         
+    }
+    .box-home-bottom .buttons{
+        margin-bottom: 1rem;
     }
     .profession{
         font-size: 24px;
@@ -156,9 +203,18 @@ color: #f1f1f1;}
     .box-home-top h1{
         display: none;
     }
+    .box-home-bottom .buttons{
+        margin-bottom: 1rem;
+    }
 }
 @media screen and (max-width: 767px) {
-    
+    .box-home-bottom .buttons{
+        margin-bottom: 1rem;
+    }
+  
+    h4{
+        font-size: 30px;
+    }
 }
 
 @media screen and (max-width: 991px) {

@@ -5,6 +5,13 @@
     flex-wrap: nowrap;
     list-style: none;
     width: 100%;
+    animation: 1s animate 0.5s forwards;
+    opacity: 0;
+}
+@keyframes animate {
+    100%{
+        opacity: 1;
+    }
 }
 
 .Navbar li a{

@@ -1,24 +1,28 @@
 import React from 'react'
 import './icon.css'
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
+import {faInstagram, faLinkedinIn, faWhatsapp, faSquareFacebook} from '@fortawesome/free-brands-svg-icons'
 
 const Icon = () => {
   return (
+    
     <div className="icon">
-        <div className="caja p-twitter">
-          <a href='https://twitter.com/leanelshark'><i className="fa-brands fa-twitter twitter"></i></a>
-        </div>
-        <div class="caja p-linkedin">
-          <a href='https://linkedin.com/in/leandromagallanes'> <i class="fa-brands fa-linkedin-in linkedin"></i></a>
-        </div>
+      
+        
+          <a className='caja box-facebook' href={"https://www.facebook.com/lean.maga"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='facebook' icon={faSquareFacebook} /></a>
+        
+      
+          <a className='caja box-linkedin' href={"https://linkedin.com/in/leandromagallanes"} target="_blank" rel="noopener noreferrer"> <FontAwesomeIcon className='linkedin' icon={faLinkedinIn} /></a>
+       
 
-        <div class="caja p-instagram">
-          <a href='https://www.instagram.com/lean_maga'><i class="fa fa-instagram" id="insta" aria-hidden="true"></i></a>
-        </div>
+        
+          <a className='caja box-instagram' href={"https://www.instagram.com/lean_maga"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='instagram' icon={faInstagram} /></a>
+        
 
-        <div class="caja p-whatsapp">
-          <a href="https://wa.me/qr/ALIPEVGLH5YDO1"><i class="fa-brands fa-whatsapp whatsapp"></i></a>
-        </div>
-
+     
+          <a className='caja box-whatsapp' href={"https://wa.me/qr/ALIPEVGLH5YDO1"} target="_blank" rel="noopener noreferrer"><FontAwesomeIcon className='whatsapp' icon={faWhatsapp} /></a>
+       
+     
     </div>
    
   )
