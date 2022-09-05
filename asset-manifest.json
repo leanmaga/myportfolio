@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.be387adc.css",
+    "main.css": "/myportfolio/static/css/main.6fa16a77.css",
     "main.js": "/myportfolio/static/js/main.801cda49.js",
     "static/media/sele-style.bmp": "/myportfolio/static/media/sele-style.c85173d26de050a0f815.bmp",
     "static/media/frankventas.bmp": "/myportfolio/static/media/frankventas.798d62801fc907d58052.bmp",
     "static/media/muebles-magallanes.bmp": "/myportfolio/static/media/muebles-magallanes.9910cf11c2d859b03489.bmp",
     "static/media/myphotobg.png": "/myportfolio/static/media/myphotobg.14b993034ac359138cd9.png",
     "index.html": "/myportfolio/index.html",
-    "main.be387adc.css.map": "/myportfolio/static/css/main.be387adc.css.map",
+    "main.6fa16a77.css.map": "/myportfolio/static/css/main.6fa16a77.css.map",
     "main.801cda49.js.map": "/myportfolio/static/js/main.801cda49.js.map"
   },
   "entrypoints": [
-    "static/css/main.be387adc.css",
+    "static/css/main.6fa16a77.css",
     "static/js/main.801cda49.js"
   ]
 }
