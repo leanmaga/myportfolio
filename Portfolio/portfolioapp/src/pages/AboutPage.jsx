@@ -4,6 +4,7 @@ import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import './aboutpage.css';
 
 
 
@@ -12,7 +13,7 @@ const AboutPage = () => {
     
       <Container>
         
-        <Row className="box-home-top">
+        <Row className="box-about-top">
             <Col xs={0} sm={2}md={4} lg={4}>
                 <h1>LM</h1>
             </Col>
@@ -23,7 +24,7 @@ const AboutPage = () => {
                 <Navbar/>
             </Col>
         </Row>
-        <Row className='box-home-center mb-4'>
+        <Row className='box-about-center mb-4'>
             <Col xs={12} sm={12} md={6} lg={4} >
                 <h1>Leandro Magallanes </h1>
                 <h3 className="">Product Desinger and Front End Developer, based in Buenos Aires.</h3>
@@ -35,8 +36,8 @@ const AboutPage = () => {
             </Col>
         </Row>
         
-        <Row className="box-home-bottom mt-4 mb-4">
-          <Col xs={12} sm={12} md={8} lg={8}>
+        <Row className="box-about-bottom mt-4 mb-4">
+          <Col xs={12} sm={12} md={12} lg={12}>
             <p className="text-white mt-4">Soy una persona lógica y sistemática. Tengo un criterio de pensamiento preciso y una asidua manera de trabajar, prefiriendo seguir procedimientos tanto en mi vida laboral como privada. <br />  
               Soy perfeccionista y no quiero cometer ningún error en mi trabajo. <br />
               Soy una persona analítica, precisa y ordenada, con gran solidaridad y lealtad en todo lo que realizo.<br />

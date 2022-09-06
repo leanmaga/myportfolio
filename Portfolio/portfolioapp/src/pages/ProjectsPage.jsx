@@ -1,4 +1,4 @@
-import React from 'react'
+import './projectspage.css'
 import Navbar from '../components/Nav';
 import '../../node_modules/bootstrap/dist/css/bootstrap-grid.min.css'
 import Container from 'react-bootstrap/Container';
@@ -13,7 +13,7 @@ import img3 from '../../src/assets/img/muebles-magallanes.bmp';
 const ProjectsPage = () => {
   return (
     <Container>
-       <Row className="box-home-top">
+       <Row className="box-home-top-card">
             <Col xs={0} sm={2}md={4} lg={4}>
                 <h1>LM</h1>
             </Col>
@@ -24,7 +24,7 @@ const ProjectsPage = () => {
                 <Navbar/>
             </Col>
         </Row>
-        <Row className="box-home-center">
+        <Row className="box-home-center-card">
             <Col xs={12} sm={12}md={4} lg={4}>
               <CardProject img={img1} titulo="selestyle" subtitulo="Catalogo Online" descripcion="Tienda online de calzado e indumentaria"/>
             </Col>
@@ -35,7 +35,7 @@ const ProjectsPage = () => {
               <CardProject img={img3}titulo="Le-Mark" descripcion="Menú del restaurante, con precios y platos" subtitulo="Pizzería y Hamburguesería"/> 
             </Col>
         </Row>
-        <Row className="box-home-bottom">
+        <Row className="box-home-bottom-card">
           <Col xs={0} sm={0} md={4} lg={4}>
           </Col>
           <Col xs={0} sm={0} md={4} lg={4}>
