@@ -24,7 +24,7 @@ const CardProject = ({titulo, subtitulo,descripcion,img,linkpage}) => {
               {descripcion}
             </CardText>
             <Button className='buy'>
-              <a href={linkpage}  target="_blank">Go to Project!</a>
+              <a href={linkpage} without rel="noreferrer" target="_blank">Go to Project!</a>
             </Button>
           </CardBody>
       </Card>
