@@ -6,6 +6,28 @@
     align-content: center;
     
 }
+.box-home-top-card{
+    width: 100%;
+}
+.box-home-top-card h1{
+    padding: 1.5rem;
+}
+.box-home-bottom-card{
+    width: 100%;
+}
+.box-home-bottom-card .redes-list .vh{
+    color: white;
+}
+.redes-list li{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f1f1f1;
+}
+.redes-list .vr{
+    color: #f1f1f1;
+}
 .box-home-top-card .vh{
     color: white;
 }

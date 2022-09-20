@@ -1,4 +1,124 @@
-.Card{
-    margin: 1rem;
-    padding: 1rem;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;1,200;1,400&family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Varela Round', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.containerr{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    transform-style: preserve-3d;
+}
+.box{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    margin:40px;
+    background:#232323;
+    border-radius: 20px;
+    transform-style: preserve-3d;
+}
+.box::before{
+    content:'HTML';
+    position: absolute;
+    top: 0%;
+    left: 10%;
+    font-size: 5em;
+    font-weight: 900;
+    color: #fff;
+    font-style: italic;
+    opacity: 0;
+    transition: 0.5s;
+}
+.box:hover::before, .box:hover::after{
+    opacity: 0.04;
+}
+.box::after{
+    content:'CSS';
+    position: absolute;
+    bottom: 5%;
+    right: 25%;
+    font-size: 4.5em;
+    font-weight: 900;
+    font-style: italic;
+    opacity: 0;
+    color: #fff;
+    transition:0.5s;
+}
+.name{
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    color: #fff;
+    width: 100%;
+    transform: translate3d(0,0,75px);
+    transition: 0.5s;
+    opacity: 0;
+    z-index: 10;
+    transform-style: preserve-3d;
+}
+.box:hover .name{
+    top: 40px;
+    opacity: 1;
+}
+.buy{
+    margin-top: 1rem;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,0,75px);
+    color: #fff;
+    padding: 5px 15px;
+    border-radius: 30px;
+    text-decoration: none;
+    transition:0.5s;
+    opacity: 0;
+    z-index: 10;
+}
+.box:hover .buy{
+    bottom: 30px;
+    opacity: 1;
+}
+.circle{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 200px;
+    height: 200px;
+    border-radius:50%;
+    transition: 0.5s;
+    background: #fff;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,0px);
+    z-index: 10;
+    opacity: 1;
+}
+.box .product{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius: 25px;
+    max-width: 300px;
+    transition: 0.5s;
+    z-index: 15;
+    transform-style: preserve-3d;
+    transform: translate3d(-50%,-50%,0px)rotate(-15deg);
+}
+.box:hover .product{
+    transform:translate3d(-50%,-50%,100px) rotate(15deg);
+}
+.containerr .box:nth-child(1) .circle,
+.containerr .box:nth-child(1) .buy{
+    background: rgb(212, 57, 57);
 }
