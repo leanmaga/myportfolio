@@ -4,7 +4,8 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
 import Navbar from '../components/Nav';
-import './homepage.css'
+import './homepage.css';
+import CV from '../assets/pdf/cv.pdf';
 
 const Home = () => {
   return (
@@ -52,10 +53,10 @@ const Home = () => {
                 
                 <Col xs={12}sm={12}  className='buttons'>
                     <Button className="me-2" variant="danger" size="sm">
-                        <a href="mailto:thesharkcommunity@gmail.com?subject=Mi+pedido&body=Hola+estoy+interesado+en" target="_blank" rel="noopener noreferrer">Message</a>
+                        <a className="text-white" href="mailto:thesharkcommunity@gmail.com?subject=Mi+pedido&body=Hola+estoy+interesado+en" target="_blank" rel="noopener noreferrer">Message</a>
                     </Button>{' '}
                     <Button variant="outline-danger" size="sm">
-                        Curriculum Vitae
+                       <a className="text-white" href={CV} download='Leandro Magallanes Curriculum Vitae'>Curriculum Vitae</a> 
                     </Button>
                 </Col>
             </Row>

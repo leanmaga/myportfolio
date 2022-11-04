@@ -12,6 +12,7 @@
         width: 100%;
         min-height: 100vh;
     }
+
     .box-about-center{
         display: flex;
         justify-content: center;
@@ -33,6 +34,7 @@
     width: 100%;
     min-height: 100vh;
 }
+
 @media screen and (min-width: 768px){
 .box-about-center{
     width: 100%;

@@ -29,7 +29,7 @@ const ProjectsPage = () => {
               <CardProject img={img1} titulo="Frank-Ventas" subtitulo="Catalogo Online" descripcion="Tienda oficial de productos Amway" linkpage="https://leanelshark.github.io/frank-ventas/"/>
             </Col>
             <Col xs={12} sm={12}md={4} lg={4}>
-              <CardProject img={img3} titulo="Muebles-Magallanes" descripcion="Ecommerce de ventas de muebles" subtitulo="Ecommerce Pyme" linkpage="http://www.mueblesmagallanes.com"/>
+              <CardProject img={img3} titulo="Muebles-Magallanes" descripcion="Ecommerce de ventas de muebles" subtitulo="Ecommerce Pyme" linkpage="https://leanelshark.github.io/mueblesmagallanes/"/>
             </Col>
             <Col xs={12} sm={12} md={4} lg={4}>
               <CardProject img={img2}titulo="Sele-Style" descripcion="Tienda online de calzado e indumentaria" subtitulo="Cientos de productos al alcance del cliente" linkpage="https://leanelshark.github.io/store/"/> 

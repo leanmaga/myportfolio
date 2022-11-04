@@ -11,7 +11,7 @@
     align-items: center;
 }
 .caja{
-    margin: 3rem;
+    margin: 2rem;
     width: 200px;
     height: 200px;
     box-shadow: 16px 14px 20px #0000008c;
@@ -141,13 +141,10 @@
     z-index: 100;
 }
 .instagram {
-
+    color:#d6249f;
     z-index: 100;
-    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-    background-clip:text;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
 }
+
 @keyframes rotate{
     0%{
         transform: rotate(0deg);
