@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "../../../../../curso react de fernando/16.Arreglos"
+		},
+		{
+			"path": "../../../../../curso react de fernando/17.Funciones"
+		},
+		{
+			"path": "../../../../../curso react de fernando/18.Desestructuración"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "17.Funciones"
+	}
+}

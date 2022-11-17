@@ -5,7 +5,7 @@
 }
 
 html{
-    font-family: montserrat;
+    
     scroll-behavior: smooth;
 }
 
@@ -14,7 +14,6 @@ body{
     background-size: 400% 400%;
     animation: animate-background 10s infinite ease-in-out;
 }
-
 ul, nav{
     text-decoration: none;
 }
@@ -52,13 +51,15 @@ footer{
 }
 .container{
     width: 100%;
-    height: auto;
     background-image: url(../assets/img/myphotobg.png);
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center center;
     top: 0;
     left: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 @keyframes animate-background{
@@ -80,20 +81,16 @@ footer{
     text-align: justify;  
 }
 
-
 .box-home-center h1{
     font-size: 65px;
     color: #f1f1f1;
-    font-weight: 700;
     padding-top: 2rem;
 }
 .box-home-center h4{
-    text-transform: capitalize;
     margin-top: 1.5em;
     text-align: center;
     font-size: 45px;
     color: #f1f1f1;
-    font-weight: 700;
 }
 
 .redes-bottom{

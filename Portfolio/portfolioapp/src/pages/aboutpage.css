@@ -1,3 +1,20 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.AboutPage{
+    padding: 2em 6em;
+    min-width: 100vh;
+}
+
+.profession-about{
+    word-spacing: 3px;
+}
+
 @media screen and (max-width:768px) {
     .box-about-top h1{
         display: none;
@@ -21,29 +38,25 @@
         text-align: center;
     }
 }
+
 .box-about-top{
     display: flex;
     justify-content: space-between;
 }
+
 .box-about-top h1{
     padding-top: 2rem;
 }
-.container{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    min-height: 100vh;
-}
 
 @media screen and (min-width: 768px){
-.box-about-center{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-content: center;
-    text-align: justify;
-    color: white;
-    padding-top: 2rem;
-}
+    .box-about-center{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        text-align: justify;
+        color: white;
+        padding-top: 2rem;
+    }
 }

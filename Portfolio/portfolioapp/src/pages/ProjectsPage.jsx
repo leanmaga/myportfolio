@@ -12,7 +12,7 @@ import img3 from '../../src/assets/img/muebles-magallanes.bmp';
 
 const ProjectsPage = () => {
   return (
-    <div className="containerr">
+    <div className="container">
        <Row className="box-home-top-card">
             <Col xs={0} sm={2}md={4} lg={4}>
                 <h1>LM</h1>
@@ -42,11 +42,11 @@ const ProjectsPage = () => {
           </Col>
           <Col xs={12} sm={12} md={4} lg={4}>
             <ul className="redes-list d-flex">
-                        <li className="nav-item"><a href='https://github.com/leanelshark' target="_blank" rel="noopener noreferrer" >Git</a></li>
-                        <div className="vr"></div>
-                        <li className="nav-item"><a href='https://linkedin.com/in/leandromagallanes' target="_blank" rel="noopener noreferrer">In</a></li>
-                        <div className="vr"></div>
-                        <li className="nav-item"><a href='https://www.facebook.com/lean.maga' target="_blank" rel="noopener noreferrer">Facebook</a></li>
+              <li className="nav-item"><a href='https://github.com/leanelshark' target="_blank" rel="noopener noreferrer" >Git</a></li>
+              <div className="vr"></div>
+              <li className="nav-item"><a href='https://linkedin.com/in/leandromagallanes' target="_blank" rel="noopener noreferrer">In</a></li>
+              <div className="vr"></div>
+              <li className="nav-item"><a href='https://www.facebook.com/lean.maga' target="_blank" rel="noopener noreferrer">Facebook</a></li>
             </ul>
           </Col>
         </Row>

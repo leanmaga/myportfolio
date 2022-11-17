@@ -27,7 +27,7 @@ const Home = () => {
 
         <Row className='box-home-center'>
             <Col xs={12} sm={12} md={6} lg={4} >
-                <h1>Leandro Magallanes </h1>
+                <h1 className='mt-4'>Leandro Magallanes </h1>
                 <span className='name'></span>
             </Col>
             <Col xs={0} sm={0} md={0} lg={4}>
@@ -35,7 +35,7 @@ const Home = () => {
             </Col>
             <Col className='col-subtitles' xs={12} sm={12} md={6} lg={4}>
                 <h4 className='profession'>Product Desinger and Front-End Developer</h4>
-                <p className='description'>Me especializo en HTML, CSS3, Sass y JavaScript. Manejo Frameworks como Bootstrap y React Js</p>
+                <p className='description '>Me especializo en HTML, CSS3, Sass y JavaScript. Manejo Frameworks como Bootstrap y React Js</p>
             </Col>
         </Row>
     </Container>
