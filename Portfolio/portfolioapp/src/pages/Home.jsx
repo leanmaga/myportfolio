@@ -43,7 +43,7 @@ const Home = () => {
             <Row className="box-home-bottom">
                 <Col xs={12} sm={12} className="redes-bottom">
                     <ul className="redes-list d-flex">
-                        <li className="nav-item"><a href='https://github.com/leanelshark' target="_blank" rel="noopener noreferrer" >Git</a></li>
+                        <li className="nav-item"><a href='https://github.com/leanmaga' target="_blank" rel="noopener noreferrer" >Git</a></li>
                         <div className="vr"></div>
                         <li className="nav-item"><a href='https://linkedin.com/in/leandromagallanes' target="_blank" rel="noopener noreferrer">In</a></li>
                         <div className="vr"></div>
@@ -53,7 +53,7 @@ const Home = () => {
                 
                 <Col xs={12}sm={12}  className='buttons'>
                     <Button className="me-2" variant="danger" size="sm">
-                        <a className="text-white" href="mailto:thesharkcommunity@gmail.com?subject=Mi+pedido&body=Hola+estoy+interesado+en" target="_blank" rel="noopener noreferrer">Message</a>
+                        <a className="text-white" href="mailto:thesharkcommunity@gmail.com?subject=Mi+pedido&body=Hola estoy interesado en" target="_blank" rel="noopener noreferrer">Message</a>
                     </Button>{' '}
                     <Button variant="outline-danger" size="sm">
                        <a className="text-white" href={CV} download='Leandro Magallanes Curriculum Vitae'>Curriculum Vitae</a> 

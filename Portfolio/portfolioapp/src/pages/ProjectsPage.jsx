@@ -26,13 +26,13 @@ const ProjectsPage = () => {
         </Row>
         <Row className="box-home-center-card">
             <Col xs={12} sm={12}md={4} lg={4}>
-              <CardProject img={img1} titulo="Frank-Ventas" subtitulo="Catalogo Online" descripcion="Tienda oficial de productos Amway" linkpage="https://leanelshark.github.io/frank-ventas/"/>
+              <CardProject img={img1} titulo="Frank-Ventas" subtitulo="Catalogo Online" descripcion="Tienda oficial de productos Amway" linkpage="https://leanmaga.github.io/frank-ventas/"/>
             </Col>
             <Col xs={12} sm={12}md={4} lg={4}>
-              <CardProject img={img3} titulo="Muebles-Magallanes" descripcion="Ecommerce de ventas de muebles" subtitulo="Ecommerce Pyme" linkpage="https://leanelshark.github.io/mueblesmagallanes/"/>
+              <CardProject img={img3} titulo="Muebles-Magallanes" descripcion="Ecommerce de ventas de muebles" subtitulo="Ecommerce Pyme" linkpage="https://leanmaga.github.io/mueblesmagallanes/"/>
             </Col>
             <Col xs={12} sm={12} md={4} lg={4}>
-              <CardProject img={img2}titulo="Sele-Style" descripcion="Tienda online de calzado e indumentaria" subtitulo="Cientos de productos al alcance del cliente" linkpage="https://leanelshark.github.io/store/"/> 
+              <CardProject img={img2}titulo="Sele-Style" descripcion="Tienda online de calzado e indumentaria" subtitulo="Cientos de productos al alcance del cliente" linkpage="https://leanmaga.github.io/store/"/> 
             </Col>
         </Row>
         <Row className="box-home-bottom-card">
@@ -42,7 +42,7 @@ const ProjectsPage = () => {
           </Col>
           <Col xs={12} sm={12} md={4} lg={4}>
             <ul className="redes-list d-flex">
-              <li className="nav-item"><a href='https://github.com/leanelshark' target="_blank" rel="noopener noreferrer" >Git</a></li>
+              <li className="nav-item"><a href='https://github.com/leanmaga' target="_blank" rel="noopener noreferrer" >Git</a></li>
               <div className="vr"></div>
               <li className="nav-item"><a href='https://linkedin.com/in/leandromagallanes' target="_blank" rel="noopener noreferrer">In</a></li>
               <div className="vr"></div>
