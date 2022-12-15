@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/myportfolio/static/css/main.2d50560c.css",
-    "main.js": "/myportfolio/static/js/main.6b7d8ca6.js",
+    "main.css": "/myportfolio/static/css/main.7f8a8b93.css",
+    "main.js": "/myportfolio/static/js/main.bb7b966d.js",
     "static/media/sele-style.bmp": "/myportfolio/static/media/sele-style.c85173d26de050a0f815.bmp",
     "static/media/frankventas.bmp": "/myportfolio/static/media/frankventas.798d62801fc907d58052.bmp",
     "static/media/muebles-magallanes.bmp": "/myportfolio/static/media/muebles-magallanes.9910cf11c2d859b03489.bmp",
     "static/media/cv.pdf": "/myportfolio/static/media/cv.e3fa1eb34452038dfb6e.pdf",
     "static/media/myphotobg.png": "/myportfolio/static/media/myphotobg.14b993034ac359138cd9.png",
     "index.html": "/myportfolio/index.html",
-    "main.2d50560c.css.map": "/myportfolio/static/css/main.2d50560c.css.map",
-    "main.6b7d8ca6.js.map": "/myportfolio/static/js/main.6b7d8ca6.js.map"
+    "main.7f8a8b93.css.map": "/myportfolio/static/css/main.7f8a8b93.css.map",
+    "main.bb7b966d.js.map": "/myportfolio/static/js/main.bb7b966d.js.map"
   },
   "entrypoints": [
-    "static/css/main.2d50560c.css",
-    "static/js/main.6b7d8ca6.js"
+    "static/css/main.7f8a8b93.css",
+    "static/js/main.bb7b966d.js"
   ]
 }
