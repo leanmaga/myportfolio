@@ -6,39 +6,59 @@ import Button from 'react-bootstrap/Button';
 import Navbar from '../components/Nav';
 import './homepage.css';
 import CV from '../assets/pdf/cv.pdf';
+import circle from '../assets/img/myphotobg.png'
 
 const Home = () => {
   return (
     <>
     <Container>
+        <Row> 
 
-        <Row className="box-home-top">
-            <Col xs={0} sm={2}md={4} lg={4}>
-                <h1>LM</h1>
+            <Col sm={0} md={4} lg={6} xl={6}>
+
+                <h1 className='text-white logo mb-4'>LM</h1>
+
             </Col>
-            <Col xs={0} sm={2}md={4} lg={4}>
-                
-            </Col>
-            <Col xs={12} sm={8} md={4} lg={4}>
+
+            <Col className="navegacion mb-4" sm={12} md={8} lg={6} xl={6}>
+            
                 <Navbar/>
+
             </Col>
+
         </Row>
 
+        <Row className='main'>
 
-        <Row className='box-home-center'>
-            <Col xs={12} sm={12} md={6} lg={4} >
-                <h1 className='mt-4'>Leandro Magallanes </h1>
-                <span className='name'></span>
+            <Col sm={12} md={6} lg={6} xl={6}>
+
+                <h1 className='main-name m-4'>Leandro Magallanes </h1>
+
             </Col>
-            <Col xs={0} sm={0} md={0} lg={4}>
+            
+
+            <Col sm={12} md={6} lg={6} xl={6}>
+
+                <img className='circle-perfil m-4' src={circle} alt="perfil" />
+
+            </Col>
+
+        </Row>
+
+        <Row className='main main-info m-4'>
+
+            <Col sm={12} md={12} lg={12} xl={12}>
                 
+                <h4 className='profession m-4'>Product Desinger and Front-End Developer</h4>
+
+                <p className='description m-4'>I specialize in HTML, CSS3, Sass and JavaScript. I use the Bootstrap and React Js Frameworks</p>
+
             </Col>
-            <Col className='col-subtitles' xs={12} sm={12} md={6} lg={4}>
-                <h4 className='profession'>Product Desinger and Front-End Developer</h4>
-                <p className='description '>Me especializo en HTML, CSS3, Sass y JavaScript. Manejo Frameworks como Bootstrap y React Js</p>
-            </Col>
+
         </Row>
+
     </Container>
+
         <footer>
             <Row className="box-home-bottom">
                 <Col xs={12} sm={12} className="redes-bottom">

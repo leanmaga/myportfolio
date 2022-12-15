@@ -32,6 +32,9 @@
     color: white;
 }
 @media screen and (max-width:768px){
+    .logo{
+        display: none;
+    }
     .box-home-center-card{
         flex-direction: inherit;
     }

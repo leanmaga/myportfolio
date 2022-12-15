@@ -16,12 +16,12 @@ const ContactPage = () => {
         
         <Row className="box-home-top">
             <Col xs={0} sm={2}md={4} lg={4}>
-                <h1>LM</h1>
+                <h1 className='logo'>LM</h1>
             </Col>
-            <Col xs={0} sm={2}md={4} lg={4}>
+            <Col xs={0} sm={2}md={2} lg={2}>
                 
             </Col>
-            <Col xs={12} sm={8} md={4} lg={4}>
+            <Col xs={12} sm={8} md={6} lg={6}>
                 <Navbar/>
             </Col>
         </Row>

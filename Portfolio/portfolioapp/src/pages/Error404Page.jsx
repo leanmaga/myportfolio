@@ -1,10 +1,10 @@
 import React from 'react'
-import Nav from '../components/Nav';
+import Navbar from '../components/Nav';
 
 const Error404Page = () => {
   return (
     <div>
-      <Nav/>
+      <Navbar/>
       Error404Page</div>
   )
 }

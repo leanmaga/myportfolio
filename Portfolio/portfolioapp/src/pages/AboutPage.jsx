@@ -6,6 +6,7 @@ import Col from 'react-bootstrap/Col';
 import './aboutpage.css';
 import Button from 'react-bootstrap/Button';
 import CV from '../assets/pdf/cv.pdf';
+import Container from 'react-bootstrap/esm/Container';
 
 
 
@@ -13,18 +14,25 @@ const AboutPage = () => {
   return (
     <>
       <div className='AboutPage'>
-        <div claass="about-container">
-          <Row className=" box-about-top">
-              <Col xs={0} sm={2}md={4} lg={4}>
-                  <h1>LM</h1>
-              </Col>
-              <Col xs={0} sm={2}md={4} lg={4}>
-                  
-              </Col>
-              <Col xs={12} sm={8} md={4} lg={4}>
-                  <Navbar/>
-              </Col>
+
+        <Container>
+
+          <Row> 
+
+            <Col sm={0} md={4} lg={6} xl={6}>
+
+                <h1 className='text-white logo mb-4'>LM</h1>
+
+            </Col>
+
+            <Col className="navegacion mb-4" sm={12} md={8} lg={6} xl={6}>
+
+                <Navbar/>
+
+            </Col>
+
           </Row>
+
           <Row className='box-about-center mb-4'>
               <Col xs={12} sm={12} md={6} lg={8} >
                   <h1>Leandro Magallanes </h1>
@@ -52,7 +60,8 @@ const AboutPage = () => {
               </p>
             </Col>
           </Row>
-        </div>
+
+        </Container>
         
       </div>
       <footer>
