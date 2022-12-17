@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import Navbar from '../components/Nav';
 import './homepage.css';
 import CV from '../assets/pdf/cv.pdf';
-import circle from '../assets/img/myphotobg.png'
+import circle from '../assets/img/bg.png'
 
 const Home = () => {
   return (
